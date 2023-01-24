@@ -15,3 +15,15 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+first_list = ["Diaper", "wipe"]
+second_list = ["coffee", "cookies", "Diaper"]
+
+joint_list = first_list + second_list
+
+puts joint_list
+
+puts ""
+puts joint_list.sort
+puts ""
+puts joint_list.sort.uniq
